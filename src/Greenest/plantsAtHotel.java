@@ -1,6 +1,7 @@
 package Greenest;
 
-public class plantsAtHotel implements IVäxter {
+public class plantsAtHotel implements IPlants {
+    //inkaplsing
     protected String name;
     protected double length;
 
@@ -10,7 +11,7 @@ public class plantsAtHotel implements IVäxter {
     }
 
     @Override
-    public void utSkrift() {
+    public void plantPrint() {
 
     }
 }

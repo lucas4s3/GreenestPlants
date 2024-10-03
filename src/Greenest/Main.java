@@ -18,13 +18,13 @@ public class Main {
                 JOptionPane.showMessageDialog(null, "Du har avbrutit programmet.");
                 break;
             } else if (nameAnswer.equalsIgnoreCase("Laura")) {
-                Laura.utSkrift();
+                Laura.plantPrint();
             } else if (nameAnswer.equalsIgnoreCase("Igge")) {
-                Igge.utSkrift();
+                Igge.plantPrint();
             } else if (nameAnswer.equalsIgnoreCase("Meatloaf")) {
-                Meatloaf.utSkrift();
+                Meatloaf.plantPrint();
             } else if (nameAnswer.equalsIgnoreCase("Olof")) {
-                Olof.utSkrift();
+                Olof.plantPrint();
             } else {
                 JOptionPane.showMessageDialog(null, "Du har inte matat in korrekt namn.");
                 continue;

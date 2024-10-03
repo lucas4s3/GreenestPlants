@@ -3,6 +3,7 @@ package Greenest;
 import javax.swing.*;
 
 public class Palm extends plantsAtHotel {
+    //inkapsling
     private double tapWaterPerMeter = 0.5;
 
 
@@ -11,7 +12,7 @@ public class Palm extends plantsAtHotel {
     }
 
     @Override
-    public void utSkrift() {
+    public void plantPrint() {
         JOptionPane.showMessageDialog(null, Plantor.PALM.plantorGreenest + ": " + this.name + "\nNäring per dag: " + (this.tapWaterPerMeter * this.length) + "L " + nutritionPlan.W.nutrition);
     }
 }

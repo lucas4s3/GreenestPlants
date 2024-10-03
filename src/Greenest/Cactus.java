@@ -3,6 +3,7 @@ package Greenest;
 import javax.swing.*;
 
 public class Cactus extends plantsAtHotel {
+    //inkapsling
     private double amountOfMineralWater = 0.2;
 
     public Cactus(double length, String name) {
@@ -10,8 +11,7 @@ public class Cactus extends plantsAtHotel {
     }
 
     @Override
-    public void utSkrift() {
-        super.utSkrift();
+    public void plantPrint() {
         JOptionPane.showMessageDialog(null, Plantor.CAC.plantorGreenest + ": " + this.name + "\nNäring per dag: " + this.amountOfMineralWater + "L " + nutritionPlan.M.nutrition);
     }
 }
