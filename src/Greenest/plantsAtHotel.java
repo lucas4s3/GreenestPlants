@@ -10,6 +10,10 @@ public class plantsAtHotel implements IPlants {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public void plantPrint() {
 
@@ -22,15 +26,6 @@ enum nutritionPlan {
 
     nutritionPlan(String nutrition) {
         this.nutrition = nutrition;
-    }
-}
-
-enum Plantor {
-    PALM("Palm"), CAC("Kaktus"), EATING("Köttätande växt");
-    public final String plantorGreenest;
-
-    Plantor(String plantorGreenest) {
-        this.plantorGreenest = plantorGreenest;
     }
 }
 

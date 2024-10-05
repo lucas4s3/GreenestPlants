@@ -13,6 +13,6 @@ public class Palm extends plantsAtHotel {
 
     @Override
     public void plantPrint() {
-        JOptionPane.showMessageDialog(null, Plantor.PALM.plantorGreenest + ": " + this.name + "\nNäring per dag: " + (this.tapWaterPerMeter * this.length) + "L " + nutritionPlan.W.nutrition);
+        JOptionPane.showMessageDialog(null, "Palm: " + this.name + "\nNäring per dag: " + (this.tapWaterPerMeter * this.length) + "L " + nutritionPlan.W.nutrition);
     }
 }

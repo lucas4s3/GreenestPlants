@@ -15,6 +15,6 @@ public class CarnPlant extends plantsAtHotel {
 
     @Override
     public void plantPrint() {
-        JOptionPane.showMessageDialog(null, Plantor.EATING.plantorGreenest + ": " + this.name + "\nNäring per dag: " + (baseProtein + contributionCalc) + "L " + nutritionPlan.P.nutrition);
+        JOptionPane.showMessageDialog(null, "Köttätande växt: " + this.name + "\nNäring per dag: " + (baseProtein + contributionCalc) + "L " + nutritionPlan.P.nutrition);
     }
 }
