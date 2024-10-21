@@ -16,6 +16,7 @@ public class Main {
         plantList.add(Igge);
         plantList.add(Olof);
         plantList.add(Laura);
+
         while (true) {
             int counter = 0;
             String nameAnswer = JOptionPane.showInputDialog(null, "Vilken växt ska få vätska?");
@@ -37,8 +38,8 @@ public class Main {
                 JOptionPane.showMessageDialog(null, "Du har matat in fel växt.");
                 continue;
             }
-            int answerContinue = JOptionPane.showConfirmDialog(null,"Vill du kontrollera flera växter?");
-            if (answerContinue == 1 || answerContinue == 2 || answerContinue == -1){
+            int answerContinue = JOptionPane.showConfirmDialog(null, "Vill du kontrollera flera växter?");
+            if (answerContinue == 1 || answerContinue == 2 || answerContinue == -1) {
                 JOptionPane.showMessageDialog(null, "Du har avbrutit programmet.");
                 break;
             }
